@@ -60,3 +60,8 @@ The Docker container runs the webui script as its command:
 ```
 CMD ["/bin/bash", "-c", "./stable-diffusion-webui/webui.sh --listen"]
 ```
+
+### All the possible ARG to pass
+```
+https://github.com/AUTOMATIC1111/stable-diffusion-webui/blob/master/modules/cmd_args.py
+```
